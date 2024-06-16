@@ -8,7 +8,7 @@
 Hey! I'm Jane. I have a background in neuroscience and I'm now completing my professional master's in biomedical engineering at Polytechnique Montréal. In an effort to blend both, here's my project on computational neuroscience :) 
 
 <h1> Controlling machines with imagination  </h1>
-![](https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/decoder.png)
+<img src="(https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/decoder.png)">
 <h3> <strong>Introduction:</strong> </h3>
 A variety of movement types can be decoded from brain signals during movement execution, ex: wrist flexion and extension, grabbing, finger moving… (<a href= "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6901702/ "> Volkova et al, 2019</a>). These decoded signals can then be used to control external devices, such as a screen cursor, a mouse or a prosthetic limb. Certain handicapped populations, like paralyzed and amputated people, could largely benefit from the control of external devices. As they do not have brain signals associated with the execution of movement, other ways of controlling the external device are needed. Fortunately, studies have shown that motor imagery (imagining executing movement) and motor control (executing movement) share neural mechanisms, by activating similar brain regions (<a href= "https://pubmed.ncbi.nlm.nih.gov/18819106/ "> Guillot et al, 2009</a>).
 <br> Hence, the question is: Can we decode movement types based on brain signals from imagined movement?
@@ -28,7 +28,7 @@ A variety of movement types can be decoded from brain signals during movement ex
 <li>Gain an understanding of open science notions</li>
 </ul>
 <h3> <strong>Data:</strong> </h3>
-The raw data comes from a public source (<a href= "https://pubmed.ncbi.nlm.nih.gov/31451738/ "> Miller et al, 2019</a>). The data used for my project has been downloaded not from the original source (raw data), but from a preprocessed source coming from the Neuromatch Academy website for computational neuroscience (https://osf.io/ksqv8).
+The raw data comes from a public source (<a href= "https://pubmed.ncbi.nlm.nih.gov/31451738/ "> Miller et al, 2019</a>). The data used for my project has been downloaded from a preprocessed source coming from the <a  href = "https://osf.io/ksqv8"> Neuromatch Academy website for computational neuroscience</a>).
 <h3> <strong>Deliverables:</strong> </h3>
 Jupyter notebook containing data processing, classifiers and data visualization
 <h3> <strong> Tools :</strong> </h3>
