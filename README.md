@@ -12,7 +12,7 @@ A variety of movement types can be decoded from brain signals during movement ex
 Hence, the question is: Can we decode movement types based on brain signals from imagined movement? 
 There are many ways of extracting brain signals, the least invasive of which (which is actually not invasive at all) is EEG (electroencephalography). However, because of the location of the electrodes on the scalp, the signal is distorted by the scalp and skull. Other more invasive techniques include EcoG (electrocorticography), in which the electrodes are placed on the surface of the cortex. This technique has been shown to yield better signal quality. 
 The question becomes: Can we decode movement types based on EcoG brain signals from imagined movement? 
-A group of students have laid the foundations for answering this question during an online computational neuroscience course (Neuromatch). Amongst other creations, they have developed a classifier to decode movement types from imagined as well as executed movement EcoG signals. This classifier will be the foundation of my project.  
+A group of students have laid the foundations for answering this question during an online computational neuroscience course ([Neuromatch](https://compneuro.neuromatch.io/)). Amongst other creations, they have developed a classifier to decode movement types from imagined as well as executed movement EcoG signals. This classifier will be the foundation of my project.  
 <h3> <strong>Main Objectives:</strong> </h3>
 Demonstrate better classifier accuracy through improved data processing 
 Implement other classifiers and compare performances 
