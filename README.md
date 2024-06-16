@@ -8,7 +8,7 @@
 Hey! I'm Jane. I have a background in neuroscience and I'm now completing my professional master's in biomedical engineering at Polytechnique Montréal. In an effort to blend both, here's my project on computational neuroscience :) 
 
 <h1> Controlling machines with imagination  </h1>
-(images/decoder.png)
+!(images/decoder.png)
 <h3> <strong>Introduction:</strong> </h3>
 A variety of movement types can be decoded from brain signals during movement execution, ex: wrist flexion and extension, grabbing, finger moving… (<a href= "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6901702/ "> Volkova et al, 2019</a>). These decoded signals can then be used to control external devices, such as a screen cursor, a mouse or a prosthetic limb. Certain handicapped populations, like paralyzed and amputated people, could largely benefit from the control of external devices. As they do not have brain signals associated with the execution of movement, other ways of controlling the external device are needed. Fortunately, studies have shown that motor imagery (imagining executing movement) and motor control (executing movement) share neural mechanisms, by activating similar brain regions (<a href= "https://pubmed.ncbi.nlm.nih.gov/18819106/ "> Guillot et al, 2009</a>).
 <br> Hence, the question is: Can we decode movement types based on brain signals from imagined movement?
