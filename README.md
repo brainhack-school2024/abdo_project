@@ -8,7 +8,7 @@
 Hey! I'm Jane. I have a background in neuroscience and I'm now completing my professional master's in biomedical engineering at Polytechnique Montréal. In an effort to blend both, here's my project on computational neuroscience:) 
 
 <h1> Controlling machines with imagination  </h1>
-<img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/Project%20intro.gif?raw=true">
+<img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/Project%20intro.gif?raw=true" width="200" >
 <h3> <strong>Introduction:</strong> </h3>
 A variety of movement types can be decoded from brain signals during movement execution, ex: wrist flexion and extension, grabbing, finger moving… (<a href= "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6901702/ "> Volkova et al, 2019</a>). These decoded signals can then be used to control external devices, such as a screen cursor, a mouse or a prosthetic limb. Certain handicapped populations, like paralyzed and amputated people, could largely benefit from the control of external devices. As they do not have brain signals associated with the execution of movement, other ways of controlling the external device are needed. Fortunately, studies have shown that motor imagery (imagining executing movement) and motor control (executing movement) share neural mechanisms, by activating similar brain regions (<a href= "https://pubmed.ncbi.nlm.nih.gov/18819106/ "> Guillot et al, 2009</a>).
 <br> Hence, the question is: Can we decode movement types based on brain signals from imagined movement?
@@ -32,9 +32,29 @@ The raw data comes from a public source (<a href= "https://pubmed.ncbi.nlm.nih.g
 <h3> <strong>Deliverables:</strong> </h3>
 Jupyter notebook containing data processing, classifiers and data visualization
 <h3> <strong> Tools :</strong> </h3>
-<h3> <strong> Methods :</strong> </h3>
-<h3> <strong> Results :</strong> </h3>
+<h3> <strong> Methods & Results:</strong> </h3>
+The starting point was examining the data. Upon doing so, I realized the electrode placement was different depending on the subject. Since the study was realized in the context of an presurgerical epileptic monitoring, the location of the electrodes depended on the approximate source of the epilepsy. The 3D brains with the electrodes of each individual were plotted. Only the electrodes present in the precentral and postcentral gyruses were selected, as these regions are involved in the execution and imagination of movement (INSERT REF).  
+<img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/brains.png?raw=true" width="200" >
+Click here for the interactive version: 
+
+After that, the performance of the classifier on each individual was plotted. 
+
+The following steps were about getting a better classification. Three classifiers were compared. 
+<br>The first one, called SVM original, is a support vector machine that came from the original NeuroMatch project. 
+<br> The second one, called SVM RFE, is a modified version of the first SVM, with an additional data standardization and a feature selection (using RFE).
+<br> The third one, called Random Forest, is a random forest classifier with a data standardization and an RFE feature selection.
+
+The three classifiers were compared on both the actual and the imagined movement conditions. 
+<br>For the actual movement: 
+<img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/classifier_actual_movement.png?raw=true" width="200" >
+<br> For the imagined moveemnt:
+<img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/classifier_imagined_movement.png?raw=true" width="200"$
 <h3> <strong> Conclusion :</strong> </h3>
+<br> Contrary to my beliefs, it seemed that no single classifier excels for everyone; each individual's data requires a tailored approach for optimal performance.
+<br> Fortunately, each individual had at least one classifier with an accuracy > 50%. 
+<br> Going back to the initial question: Can we decode movement types using imagined movement EcoG signals?
+<br> The results from this project are somehow inconclusive. Some individuals show pretty good classifier accuracy, but how much accuracy is needed to be able to confirm that movement types are decodable is unclear. 
+<br> Possible causes of this unreliable conclusion are that the EcoG data is too noisy to be correctly classified, that there's not eneough data, and/or that movement imagination was not reliable enough in some individuals. Future projects should try data augmenttaion techniques and different classifier approaches. 
 <h3> <strong> References :</strong> </h3>
 <ol>
 <li> Volkova K, Lebedev MA, Kaplan A, Ossadtchi A. Decoding Movement From Electrocorticographic Activity: A Review. Front Neuroinform. 2019 Dec 3;13:74. doi: 10.3389/fninf.2019.00074. PMID: 31849632; PMCID: PMC6901702.</li>
