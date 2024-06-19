@@ -35,8 +35,7 @@ Jupyter notebook containing data processing, classifiers and data visualization
 <h3> <strong> Methods & Results:</strong> </h3>
 The starting point was examining the data. Upon doing so, I realized the electrode placement was different depending on the subject. Since the study was realized in the context of an presurgerical epileptic monitoring, the location of the electrodes depended on the approximate source of the epilepsy. The 3D brains with the electrodes of each individual were plotted. Only the electrodes present in the precentral and postcentral gyruses were selected, as these regions are involved in the execution and imagination of movement (INSERT REF).  
 <img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/brains.png?raw=true">
-Click here for the interactive version: 
-
+Click <a href="https://brainhack-school2024.github.io/abdo_project/3dbrain_electrodes.html">here</a> for the interactive version: 
 After that, the performance of the classifier on each individual was plotted. 
 
 The following steps were about getting a better classification. Three classifiers were compared. 
@@ -47,10 +46,12 @@ The following steps were about getting a better classification. Three classifier
 The three classifiers were compared on both the actual and the imagined movement conditions. 
 <br>For the actual movement: 
 <img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/classifier_actual_movement.png?raw=true" >
-<br> For the imagined moveemnt:
+Click <a href="https://brainhack-school2024.github.io/abdo_project/Actual_Movement_Condition.html">here</a> for the interactive version:
+<br> For the imagined movement:
 <img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/classifier_imagined_movement.png?raw=true" >
+Click <a href="https://brainhack-school2024.github.io/abdo_project/Imagined_Movement_Condition.html">here</a> for the interactive vers$
 <h3> <strong> Conclusion :</strong> </h3>
-<br> Contrary to my beliefs, it seemed that no single classifier excels for everyone; each individual's data requires a tailored approach for optimal performance.
+Contrary to my beliefs, it seemed that no single classifier excels for everyone; each individual's data requires a tailored approach for optimal performance.
 <br> Fortunately, each individual had at least one classifier with an accuracy > 50%. 
 <br> Going back to the initial question: Can we decode movement types using imagined movement EcoG signals?
 <br> The results from this project are somehow inconclusive. Some individuals show pretty good classifier accuracy, but how much accuracy is needed to be able to confirm that movement types are decodable is unclear. 
