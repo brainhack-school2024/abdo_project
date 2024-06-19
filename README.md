@@ -30,10 +30,11 @@ A variety of movement types can be decoded from brain signals during movement ex
 <h3> <strong>Data:</strong> </h3>
 The raw data comes from a public source (<a href= "https://pubmed.ncbi.nlm.nih.gov/31451738/ "> Miller et al, 2019</a>). The data used for my project has been downloaded from a preprocessed source coming from the <a  href = "https://osf.io/ksqv8"> Neuromatch Academy website for computational neuroscience</a>.
 <h3> <strong>Deliverables:</strong> </h3>
-Jupyter notebook containing data processing, classifiers and data visualization
-<h3> <strong> Tools :</strong> </h3>
+Two jupyter notebooks: one for the 3d plotting of brains, and one for the preprocessing, classification and data visualization of classifier performance.
+<h3> <strong> Tools :</strong> </h3> 
+Click <a href="https://github.com/brainhack-school2024/abdo_project/blob/iss1/requirements.txt">here</a> for the requirements.txt file.
 <h3> <strong> Methods & Results:</strong> </h3>
-The starting point was examining the data. Upon doing so, I realized the electrode placement was different depending on the subject. Since the study was realized in the context of an presurgerical epileptic monitoring, the location of the electrodes depended on the approximate source of the epilepsy. The 3D brains with the electrodes of each individual were plotted. Only the electrodes present in the precentral and postcentral gyruses were selected, as these regions are involved in the execution and imagination of movement (INSERT REF).  
+The starting point was examining the data. Upon doing so, I realized the electrode placement was different depending on the subject. Since the study was realized in the context of an presurgerical epileptic monitoring, the location of the electrodes depended on the approximate source of the epilepsy. The 3D brains with the electrodes of each individual were plotted. Only the electrodes present in the precentral and postcentral gyruses were selected, as these regions are involved in the execution and imagination of movement.  
 <img src="https://github.com/brainhack-school2024/abdo_project/blob/iss1/images/brains.png?raw=true">
 Click <a href="https://brainhack-school2024.github.io/abdo_project/images/3dbrain_electrodes.html">here</a> for the interactive version: 
 After that, the performance of the classifier on each individual was plotted. 
@@ -56,6 +57,7 @@ Contrary to my beliefs, it seemed that no single classifier excels for everyone;
 <br> Going back to the initial question: Can we decode movement types using imagined movement EcoG signals?
 <br> The results from this project are somehow inconclusive. Some individuals show pretty good classifier accuracy, but how much accuracy is needed to be able to confirm that movement types are decodable is unclear. 
 <br> Possible causes of this unreliable conclusion are that the EcoG data is too noisy to be correctly classified, that there's not eneough data, and/or that movement imagination was not reliable enough in some individuals. Future projects should try data augmenttaion techniques and different classifier approaches. 
+<br> Lastly, I can confidently say I have attained my personal and academic objectives throughout this project, despite a quasi-unsure demonstration of better classifier accuracy. I'd like to thank the TAs as well as Dr Alonso Ortiz for this great opportunity! 
 <h3> <strong> References :</strong> </h3>
 <ol>
 <li> Volkova K, Lebedev MA, Kaplan A, Ossadtchi A. Decoding Movement From Electrocorticographic Activity: A Review. Front Neuroinform. 2019 Dec 3;13:74. doi: 10.3389/fninf.2019.00074. PMID: 31849632; PMCID: PMC6901702.</li>
