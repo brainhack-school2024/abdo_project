@@ -27,6 +27,9 @@ A variety of movement types can be decoded from brain signals during movement ex
 <li>Get familiar with Github/Git</li>
 <li>Gain an understanding of open science notions</li>
 </ul>
+<h3> <strong>Training Modules:</strong> </h3>
+Introduction to Deep Learning, Deep Learning for neuroimaging, Working with MNE-Python and EEG-BIDS, Data visualization.
+<br> These modules can all be found  <a href="https://school-brainhack.github.io/modules/">here</a>.
 <h3> <strong>Data:</strong> </h3>
 The raw data comes from a public source (<a href= "https://pubmed.ncbi.nlm.nih.gov/31451738/ "> Miller et al, 2019</a>). The data used for my project has been downloaded from a preprocessed source coming from the <a  href = "https://osf.io/ksqv8"> Neuromatch Academy website for computational neuroscience</a>.
 <h3> <strong>Deliverables:</strong> </h3>
